@@ -1,0 +1,350 @@
+body,h1,h2,h3,h4,h5,h6,a,p,span,div{
+ font-family: 'work sans', sans-serif;
+}
+
+.col-lg-2 {
+    flex: 0 0 auto;
+    width: 19%;
+}
+
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 220px 0;
+    position: relative;
+    z-index: 1;
+
+}
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: -1;
+}
+
+.slider-caption h2{
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-size: 60px;
+   font-weight: 480;
+}
+.slider-caption h4{
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.jon-header .navbar-brand{
+    font-size: 24px;
+    font-weight: 550;
+}
+.jon-header span{
+    background: rgb(128, 86, 228);
+    padding: 5px 13px;
+    color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+    
+    
+}
+
+.slider-section input{
+    padding: 20px 30px;
+    font-size: 24px;
+
+}
+.slider-section button{
+    background: rgb(26, 187, 26);
+    padding: 19px 40px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.jon-muno.nav-item{
+    padding-left: 80px !important;
+    
+}
+
+
+.section-hading{
+    background: rgb(247, 247, 247);
+}
+img{
+    max-width: 100%;
+}
+
+.s-hading h2{
+   margin-top: 120px;
+   font-size: 40px;
+   font-weight: 545;
+}
+.s-hading p{
+   margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.9rem;
+    color: rgb(15, 12, 12);
+}
+
+
+.feture-item{
+    height: 240px;
+    box-shadow: 3.1px 5.10px 20px 0 rgba(151, 151, 151, 0.637);
+}
+.left-img{
+   width: 40%;
+   overflow: hidden;
+   border-radius: 5px 0 0 5px;
+
+}
+.left-img img{
+    height: 100%;
+    width:auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+
+}
+.right-text{
+    width: 60%;
+    padding: 15px;
+}
+.f-caption h2{
+    font-size: 42px;
+    font-weight: 540;
+    margin-bottom: 20px;
+
+}
+
+
+
+.texth2{
+    font-size: 47px;
+    margin-bottom: 15px;
+    font-weight: 480;
+}
+.futer-section{
+  
+}
+
+.futer-section a{
+    position: relative;
+    display: block;
+ 
+    
+}
+.futer-section a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: #6921ad83;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+   
+}
+
+.futer-section:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.pricing-table{
+    background: #f1f1f1;
+    height: 842px;
+}
+
+.pricing-item{
+    background: #fff;
+    padding: 50px;
+    width:80%;
+    margin-left:40px;
+}
+.pricing-item-sec{
+    background: #fff;
+    padding: 50px;
+    width:80%;
+    margin-left:40px;
+}
+
+
+.pricing-table h2{
+    font-size: 50px;
+    font-weight: 500;
+     
+}
+.pricing-table h6{
+    font-size: 23px;
+    font-weight: 200;
+    margin-bottom: 25px;
+    color: rgba(78, 72, 82, 0.8);
+}
+.pricing-item{
+    box-shadow: 3.1px 5.10px 20px 0 rgba(151, 151, 151, 0.637);
+    border-radius: 7px;
+
+}
+.pricing-item-sec{
+    box-shadow: 3.1px 5.10px 20px 0 rgba(151, 151, 151, 0.637);
+    border-radius: 7px;
+
+}
+.pricing-item ul{
+    list-style:none;
+}
+.pricing-item-sec ul{
+    list-style:none;
+    color: rgba(150, 146, 153, 0.700);
+}
+.pricing-item-sec ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pricing-item-sec ul li span{
+    font-size: 25px;
+    display: inline-block;
+    width: 30px;
+    color: rgb(78, 20, 238);
+}
+.pricing-item ul li{
+    margin-bottom:20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(150, 146, 153, 0.700);
+}
+.pricing-item ul li span{
+    font-size: 25px;
+    display: inline-block;
+    width: 30px;
+    color: rgb(78, 20, 150);
+}
+.pricing-button{
+  
+}
+.pricing-button a{
+    outline: none;
+    
+  box-shadow: 3.1px 5.10px 20px 0 rgba(59, 27, 240, 0.555);
+    
+    }
+.about-sectiuon h6{
+    font-size: 25px;
+    color: rgba(91, 88, 94, 0.74);
+    margin-bottom: 18px;
+}
+.about-sectiuon h3{
+    font-size: 45px;
+    font-weight: 300;
+}
+.about-sectiuon span{
+    font-size: 83px;
+    margin-top: -20px;
+    display: block;
+    color: rgba(136, 135, 135, 0.185);
+}
+.about-sectiuon p{
+    font-size: 27px;
+    font-weight: 300;
+    color: rgba(48, 48, 48, 0.753);
+    margin-top: -20px;
+}
+.user-info{
+    width: 220px;
+    margin: auto;
+  
+ 
+}
+.user-info img{
+    width: 80px;
+    margin-right: 15px;
+}
+.user-vaulo {
+    text-align: left;
+    position: relative;
+    top: 16px;
+   
+}
+.user-vaulo h2{
+    font-size: 17px;
+    font-weight: 600;
+}
+.user-vaulo p{
+    font-size: 16.5px;
+}
+
+.min-bg{
+    background: rgba(245, 245, 245, 0.979);
+}
+
+.teem-section{
+    height: 790px;
+
+}
+.teem-section h4{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 25px;
+
+}
+.caption-titell{
+   font-size: 19px;
+    margin-top: 80px;
+}
+.capton-titel{
+    font-size: 19px;
+
+    margin-top: 167px;
+}
+
+.card img{
+    width: 152px;
+    
+}
+.about-item{
+    margin-top: 120px;
+}  
+.about-item .card img{
+    margin-left: 12px ;
+}
+.about-item img{
+    margin-top: -70px;
+    
+}
+
+.card{
+    box-shadow: 3.1px 5.10px 20px 0 rgba(62, 21, 247, 0.199);
+}
+ .button button{
+    box-shadow: 3.1px 5.10px 20px 0 rgba(62, 21, 247, 0.289);
+    padding: 12px 25px;
+ }
+
+
+ .img-div img{
+     width: 120%;
+     margin-left: px;
+     margin-top: 30px;
+   
+ }
+
+ .text-footer{
+     
+   background: rgba(243, 243, 243, 0.966);
+ }
+ .text-footer p{
+     margin-top: 18px;
+     font-size: 21.8px;
+ }
+ .text-footer i{
+     color: rgb(128, 2, 231);
+     margin-left: 20px;
+     position: absolute;
+ }
